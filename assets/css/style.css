@@ -27,6 +27,19 @@ body{
     background: url(../img/cubes.png) #f4f4f4;
 }
 
+.alerta{
+    padding: 5px;
+    font-size: 14px;
+    background-color: green;
+    box-shadow: 0px 1px 3px #ccc;
+    margin-bottom: 15px;
+    border-radius: 2px;
+}
+
+.alerta-error{
+    background-color: red;
+}
+
 /* Cabecera*/
 
 #cabecera{
@@ -146,7 +159,8 @@ input[type="password"]{
 }
 
 input[type="button"],
-input[type="submit"]{
+input[type="submit"],
+.boton {
     margin-top: 5px;
     margin-bottom: 5px;
     display: block;
@@ -156,6 +170,26 @@ input[type="submit"]{
     border: 1px solid #156785;
     cursor: pointer;
     padding: 7px;
+}
+
+.boton{
+    width: 150px;
+    text-align: center;
+}
+
+.boton-verde{
+    background-color: #21b921;
+    border-color: green;
+}
+
+.boton-naranja{
+    background-color: orange;
+    border-color: #bd7d08;
+}
+
+.boton-rojo{
+    background-color: red;
+    border-color: #444;
 }
 
 /* Principal */
