@@ -11,6 +11,7 @@
             <a href="cerrar.php" class="boton boton-rojo" >Cerrar sesión</a>
         </div> 
     <?php endif;?>
+    <?php if(!isset($_SESSION['usuario'])): ?>
     <div id="login" class="bloque">
         <h3>Identifícate</h3>
 
@@ -57,4 +58,5 @@
                 <?php borrarErrores() ?>
             </form>
     </div>
+    <?php endif;?>
 </aside>
